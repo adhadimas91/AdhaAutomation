@@ -28,4 +28,15 @@
             <class name="adha.automation.test.inspirasi.InspirasiTest" />
         </classes>
     </test>
+
+    <test name="PlayStore">
+        <classes>
+            <class name="adha.automation.test.store.PlayStoreTest" />
+        </classes>
+    </test>
+    <test name="AppStore">
+        <classes>
+            <class name="adha.automation.test.store.AppStoreTest" />
+        </classes>
+    </test>
 </suite> <!-- Suite -->
