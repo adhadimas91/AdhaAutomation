@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Regression">
+
+    <listeners>
+        <listener class-name="adha.automation.report.ExtentListeners" />
+    </listeners>
+
+    <test name="HomeTest">
+        <classes>
+            <class name="adha.automation.test.home.HomeTest" />
+
+        </classes>
+    </test>
+    <test name="MitraTest">
+        <classes>
+            <class name="adha.automation.test.mitra.MitraTest" />
+        </classes>
+    </test>
+    <test name="CareerTest">
+        <classes>
+            <class name="adha.automation.test.career.CareerTest" />
+        </classes>
+    </test>
+    <test name="InsiparsiTest">
+        <classes>
+            <class name="adha.automation.test.inspirasi.InspirasiTest" />
+        </classes>
+    </test>
+</suite> <!-- Suite -->
